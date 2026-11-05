@@ -1,0 +1,10 @@
+.aqto-common-scaffold-seed .aqto-bare-shell {
+--aqto-shell-max-width: min(1180px, calc(100vw - 32px));
+      color: var(--aq-color-text, #17202d);
+      background: var(--aq-color-background, #f6f8fb);
+}
+
+.aqto-common-scaffold-seed .aqto-bare-shell .aqto-shell-foundation {
+  max-width: var(--aqto-shell-max-width);
+  margin-inline: auto;
+}
